@@ -6,7 +6,6 @@ Bach Stress Test
  README!
  
  This is a stress test (originally written for Processing) for p5.js and Web Audio API.
- The canvas is drawn with p5.js and the sound is made with Web Audio API.
  At mouse click the image will be divided in 4 images.
  Also the audio file will be split in 4 parts and these will be played together. Parts 1 and 3 will play forward, while parts 2 and 4 will play backwards.
  

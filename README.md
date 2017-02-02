@@ -1,4 +1,4 @@
-bach stress test
+Bach Stress Test
  
  code: http://www.giovannibedetti.com/
  illustration: https://www.behance.net/monocolo
@@ -14,7 +14,7 @@ bach stress test
  
  The theme is the famous J.S. Bach canon 1 à 2 from the "Musical Offering" (1747)
  This piece is a "crab canon", so it can be played at the same time forward and backward.
- See here (www2.nau.edu/tas3/MOcancrizans.pdf) for the full story.
+ See here (http://www2.nau.edu/tas3/MOcancrizans.pdf) for the full story.
  This test was made just to find out if it can be combined in other ways. 
  
  Check out the magic of math.

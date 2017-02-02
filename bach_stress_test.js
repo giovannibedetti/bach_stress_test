@@ -38,9 +38,9 @@ var maxRecursion = 5; //max subdivision of rects, change it at your own risk
 var fullRect;
 var allRects;
 var imgCount = 8;
-var images = [8];// new PImage[imgCount];
+var images = [imgCount];
 // Keeps track of loaded images (true or false)
-var loadStates = []; //new boolean[imgCount];
+var loadStates = [imgCount]; 
 // For loading animation
 var loaderX, loaderY, theta;
 var still = false;
@@ -135,8 +135,8 @@ function keyPressed() {
 
 
 function divideRects() {
-  var tempRects = [4];//new DrawingRect[4];
-  var newRects = [allRects.length*4];//new DrawingRect[allRects.length*4];
+  var tempRects = [4];
+  var newRects = [allRects.length*4];
 
   for (var i = 0; i < allRects.length; i++) {
 
@@ -146,18 +146,17 @@ function divideRects() {
       newRects[(i * 4) + j] = tempRects[j];
     }
   }
-  //allRects = new DrawingRect[newRects.length];
   allRects = newRects;
 }  
 
 function loadImages() {
-  for (var i=0; i< 8; i++) { 
+  for (var i = 0; i < 8; i++) { 
     images[i] = loadImage("data/canone_V2_0"+i+".png");
   }
 }
 
 function initRects() {
-  allRects = [1];//new DrawingRect[1];
+  allRects = [1];
   allRects[0]=new DrawingRect(images, 0, 0, width, height-20);
 }
 

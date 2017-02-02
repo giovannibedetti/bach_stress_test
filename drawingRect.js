@@ -4,14 +4,13 @@ function DrawingRect( _imgs, _x, _y, _w, _h) {
   this.y=_y;
   this.w=_w;
   this.h=_h;
-  //this.which = (int)(random(_imgs.length/2));
   this.timeToNext = 100;
-  this.imgs = [_imgs.length];//new PImage[_imgs.length];
+  this.imgs = [_imgs.length];
 
   this.imgs = _imgs;
   this.curTime = millis();
   this.index = 0;
-  this.which =  int(random(this.imgs.length/2));//random(this.imgs.length/2);
+  this.which =  int(random(this.imgs.length/2));
   this.cur = this.imgs[this.which * 2 + this.index];
 
   this.display = function() {
@@ -39,7 +38,6 @@ function DrawingRect( _imgs, _x, _y, _w, _h) {
       this.which = int(random(this.imgs.length/2));
       this.cur = this.imgs[this.which * 2 + this.index];
     } else {
-      //var indx = this.which * 2 + this.index;
       this.cur = this.imgs[this.which * 2 + this.index];
     }
   }

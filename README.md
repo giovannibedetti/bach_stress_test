@@ -5,12 +5,12 @@ bach stress test
  
  README!
  
- This is a stress test for Processing and Web Audio API.
- The canvas is drawn using Processing and the sound is made with Web Audio API.
+ This is a stress test (originally written for Processing) for p5.js and Web Audio API.
+ The canvas is drawn with p5.js and the sound is made with Web Audio API.
  At mouse click the image will be divided in 4 images.
- Also the audio file is split in 4 parts and these are played together. Parts 1 and 3 are played forward, while parts 2 and 4 are played backwards.
+ Also the audio file will be split in 4 parts and these will be played together. Parts 1 and 3 will play forward, while parts 2 and 4 will play backwards.
  
- You'll see and hear 1, 4, 16, 64, 256, 1024 images and sounds together.
+ You'll see and hear 1, 4, 16, 64, 256, 1024 images and sounds together. (256 seems to be the highest value on Chrome 55.0.2883.95 64-bit)
  
  The theme is the famous J.S. Bach canon 1 à 2 from the "Musical Offering" (1747)
  This piece is a "crab canon", so it can be played at the same time forward and backward.

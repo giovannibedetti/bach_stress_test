@@ -119,16 +119,15 @@ function mousePressed() {
 }
 
 function keyPressed() {
-  if (key=='s') {
-
+  if (key == 's'|| key== 'S') {
     still = !still;
-
+    
     for (var i = 0; i < allRects.length; i++) {
       allRects[i].setStill(still);
     }
   }
 
-  if (key==' ') {
+  if (key == ' ') {
     stopSound(allRects.length);
   }
 }

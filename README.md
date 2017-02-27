@@ -19,7 +19,7 @@ Bach Stress Test
  Check out the magic of math.
  
  Desktop only: 
- for your pleasure you can stop the sounds using the space bar, 
+ for your pleasure you can stop the sounds pressing ’p’, 
  and enable/disable the random image change pressing 's'.
  
  Warning: as I said, this is a stress test. Try it at your own risk! (your browser can hang a little bit)

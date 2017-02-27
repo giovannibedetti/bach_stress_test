@@ -37,10 +37,6 @@ var fullRect;
 var allRects;
 var imgCount = 8;
 var images = [imgCount];
-// Keeps track of loaded images (true or false)
-var loadStates = [imgCount]; //new boolean[imgCount];
-// For loading animation
-var loaderX, loaderY, theta;
 var still = false;
 //how many divisions are done
 var times = 0;
@@ -138,8 +134,7 @@ function divideRects() {
 }  
 
 function loadImages() {
-  for (var i=0; i< 8; i++) { 
-    loadStates[i] = false;
+  for (var i=0; i<imgCount; i++) { 
     images[i] = loadImage("data/canone_V2_0"+i+".png");
   }
 }
